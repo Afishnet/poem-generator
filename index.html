@@ -7,37 +7,41 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Late evening, on the first of May - The twilit May - the time of love.
-        Meltingly called the turtle-dove, Where rich and sweet pinewoods lay.
-        Whispered of love the mosses trail, The flowering tree as sweetly lied,
-        The rose's fragrant sigh replied To love-songs of the nightingale. In
-        shadowy woods the burnished lake Darkly complained a secret pain, By
-        circling shores embraced again; And heaven's clear sun leaned down to
-        take A road astray in azure deeps, Like burning tears the lover weeps.
-      </div>
-    </main>
-    <footer>
-      Coded with <span class="emoji">💚</span> by
-      <strong>Anet Jakesova</strong>
-      and is
-      <a href="https://github.com/Afishnet?tab=repositories" target="_blank">
-        open sourced on GitHub.</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Late evening, on the first of May - The twilit May - the time of love.
+          Meltingly called the turtle-dove, Where rich and sweet pinewoods lay.
+          Whispered of love the mosses trail, The flowering tree as sweetly
+          lied, The rose's fragrant sigh replied To love-songs of the
+          nightingale. In shadowy woods the burnished lake Darkly complained a
+          secret pain, By circling shores embraced again; And heaven's clear sun
+          leaned down to take A road astray in azure deeps, Like burning tears
+          the lover weeps.
+        </div>
+      </main>
+      <footer>
+        Coded with <span class="emoji">💚</span> by
+        <strong>Anet Jakesova</strong>
+        and is
+        <a href="https://github.com/Afishnet?tab=repositories" target="_blank">
+          open sourced on GitHub.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
